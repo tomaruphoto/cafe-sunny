@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1 id="title">Caffe Sunny</h1>
+    <div class="nav-container">
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="https://www.instagram.com/?hl=ja" target="_blank">
+        <img src="https://code-jump.com/demo/html/portfolio1/img/icon-instagram.png" alt="Instagram" class="social-icon">
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <picture>
+      <source media="(max-width: 600px)" srcset="https://code-jump.com/demo/html/portfolio1/img/mainvisual-sp.jpg">
+      <img src="https://code-jump.com/demo/html/portfolio1/img/mainvisual-pc.jpg" alt="Main Visual" class="main-visual">
+    </picture>
+
+    <section id="about">
+      <h2>About</h2>
+      <div class="inform-container">
+        <p class="aboutme">木のぬくもりと黄色の看板が目印の、街角のカジュアルカフェ。</p>
+        <p class="aboutme">厳選した豆を使ったコーヒーと、毎朝焼き上げる自家製スイーツが自慢です。</p>
+        <ul>
+          <li class="address">神奈川県希望ヶ丘0-0-0</li>
+          <li class="time">営業時間：10:00~18:00(LO 17:00)</li>
+          <li class="tele">TEL: 000-0000-0000</li>
+          <li class="email"><a href="mailto:examplesunny@example.com">Email: examplesunny@example.com</a></li>
+        </ul>
+      </div>
+    </section>
+
+     <section id="menu">
+      <h2>Menu</h2>
+      <div class="menu-picture">
+        <div class="menu-item">
+          <!--写真: pariwat pannium(https://unsplash.com/ja/@pariwatt)-->
+          <img src="img/coffee.jpg" alt="coffee">
+          <h3>コーヒー</h3>
+          <p>当店自慢のコーヒーです</p>
+          <p>400円</p>
+        </div>
+        <div class="menu-item">
+          <!--写真: Takuya Nagaoka(https://unsplash.com/ja/@takuya_n)-->
+          <img src="img/shortcake.jpg" alt="shortcake">
+          <h3>ショートケーキ</h3>
+          <p>当店自慢のショートケーキです</p>
+          <p>500円</p>
+        </div>
+        <div class="menu-item">
+          <!-- 写真: Raphael Nogueira(https://unsplash.com/ja/@phaelnogueira)-->
+          <img src="img/sandwich.jpg" alt="sandwich">
+          <h3>サンドイッチ</h3>
+          <p>新鮮な野菜とチーズが絶妙に調合されたサンドイッチです</p>
+          <p>600円</p>
+        </div>
+        <div class="menu-item">
+          <!--写真: nameless 3791(https://unsplash.com/ja/@unidentifieduser)-->
+          <img src="img/caffelatte.jpg" alt="caffelatte">
+          <h3>カフェラテ</h3>
+          <p>濃いコーヒーとふわふわのミルクがたまらないカフェラテです</p>
+          <p>450円</p>
+        </div>
+        <div class="menu-item">
+          <!-- 写真: Vicky Nguyen (https://unsplash.com/ja/@isszvicky25) on Unsplash -->
+          <img src="img/croissant.jpg" alt="croissant">
+          <h3>クロワッサン</h3>
+          <p>軽食にちょうどいいバター香るクロワッサンです</p>
+          <p>250円</p>
+        </div>
+        <div class="menu-item">
+           <!--写真:Will Echols (https://unsplash.com/ja/@willecholz)-->
+          <img src="img/chocolate.jpg" alt="chocolatecake">
+          <h3>チョコレートケーキ</h3>
+          <p>コーヒーとの相性が抜群なチョコレートケーキです</p>
+          <p>500円</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="news">
+      <h2>News</h2>
+      <ul>
+        <li><span>2020.XX.XX:</span> 地元雑誌『ＸＸＸＸＸＸ Vol.11』に掲載していただきました！</li>
+        <li><span>2020.XX.XX:</span> ＸＸ月ＸＸ日から期間限定でモンブランの販売を開始します！</li>
+        <li><span>2019.XX.XX:</span>【イベント開催のお知らせ】夏祭りに出店を出します！</li>
+        <li><span>2019.XX.XX:</span> 地元雑誌『ＸＸＸＸＸＸ Vol.10』に掲載していただきました！</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form action="" method="post">
+        <label for="name" class="form-label">お名前</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email" class="form-label">メールアドレス</label>
+        <input type="email" id="email" name="email" required />
+        <label for="message" class="form-label">お問い合わせ内容</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">送信</button>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer">
+  <p>&copy; 2026 Cafe SUNNY</p>
+  <p class="credit">
+    写真提供: 
+    <a href="https://unsplash.com/ja/@pariwatt" target="_blank">pariwat pannium</a>,
+    <a href="https://unsplash.com/ja/@takuya_n" target="_blank">Takuya Nagaoka</a>,
+    <a href="https://unsplash.com/ja/@phaelnogueira" target="_blank">Raphael Nogueira</a>,
+    <a href="https://unsplash.com/ja/@unidentifieduser" target="_blank">nameless 3791</a>,
+    <a href="https://unsplash.com/ja/@isszvicky25" target="_blank">Vicky Nguyen</a>,
+    <a href="https://unsplash.com/ja/@willecholz" target="_blank">Will Echols</a>
+    on <a href="https://unsplash.com" target="_blank">Unsplash</a>
+  </p>
+</footer>
+</body>
+
+</html>
