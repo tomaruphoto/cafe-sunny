@@ -1,7 +1,8 @@
 # Cafe SUNNY 
 架空のウェブサイトです 
 
-html/css制作し、レスポンシブ対応しています   
+- [codejump](https://code-jump.com/coding-recommend/)の模写課題を元に、HTML、CSSで制作しました。
+レスポンシブ対応していますhtml/css制作し、レスポンシブ対応しています   
 
 公開サイト: https://tomaruphoto.github.io/cafe-sunny/
 
